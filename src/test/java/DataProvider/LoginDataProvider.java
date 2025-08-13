@@ -7,8 +7,7 @@ public class LoginDataProvider {
     @DataProvider(name = "loginData")
     public Object[][] getData() throws Exception {
         Object[] loginData = DataReader.getLoginData("jsonfiles/loginData.json");
-        return new Object[][]{
-                {loginData[0], loginData[1]}
+        return new Object[][]{{loginData[0], loginData[1]}
         };
     }
 }
