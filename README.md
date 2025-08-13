@@ -18,7 +18,7 @@ It includes:
 - **Automation**: Selenium WebDriver  
 - **Test Framework**: TestNG
 - **Reporting**: ExtentReports (HTML format)
-- Test Data: JSON-simple (for reading test data)
+- **Test Data**: JSON-simple (for reading test data)
 - **Build Tool**: Maven  
   
 ---
