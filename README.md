@@ -59,8 +59,7 @@ project-root/
 ## 🏃 How to Run the Test
 1- Clone the Repository
 ```bash
-git clone https://github.com/your-username/OneKonnect.git
-cd OneKonnect
+git clone https://github.com/Sherriif/OneKonnect_Partner_Portal.git
 ```
 2- Open the Project in IntelliJ IDEA
 - Go to File → Open and select the OneKonnect folder.
