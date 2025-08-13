@@ -21,7 +21,7 @@ public class Setup {
 
 
     @BeforeSuite
-    public void setUpExtentReport() throws IOException {
+    public void setUpExtentReport(){
         extent = new ExtentReports();
         htmlReporter = new ExtentSparkReporter("src/test/java/utils/reports/UI_test_report.html");
         extent.attachReporter(htmlReporter);
