@@ -29,7 +29,7 @@ public class DashboardPage {
     By EDIButton = By.cssSelector("a[href='/eBNPartnerPortal_test2/PartnerOrders/AddOrder?partnerid=40438']");
 
     //METHODS
-         //Verify dashboard page by checking visibility of a button (Outbound) unique to this page
+         //Verify dashboard page by checking visibility of a button (Outbound) unique to this page.
     public boolean dashboardPageVisibility(){
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(outboundButton));
         return element.isDisplayed();
