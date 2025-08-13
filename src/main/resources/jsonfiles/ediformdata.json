@@ -1,0 +1,36 @@
+{
+  "PartnerContactInformation": {
+    "ContactName": "mostafa",
+    "ContactPhone": "1234567890",
+    "ContactEmail": "mostafa@gmail.com"
+  },
+  "CustomerInformation": {
+    "CustomerName": "Sherif",
+    "CustomerID": "31",
+    "StreetAddress": "Westfield San Francisco Centre",
+    "City": "Florida",
+    "State": "Florida",
+    "ZipCode": "12411",
+    "CustomerContactName": "Sherif",
+    "CustomerContactEmail": "sherif@gmail.com"
+  },
+  "NewCompany": {
+    "CompanyName": "OneKonnect",
+    "CompanyCity": "Florida",
+    "CompanyState": "Florida",
+    "FederalTaxID": "123456789",
+    "CompanyAddress": "fake street, florida"
+  },
+  "CustomerBenefitsInformation": {
+    "#ofCarrierConnections": "1",
+    "PlanYearStartDate": "12/8/2025",
+    "#ofEmployees": "50"
+  },
+  "NewCarrier": {
+    "CarrierName": "Insurance",
+    "CarrierContactName": "test",
+    "CarrierContactEmail": "test@gmail.com",
+    "IncludeCOBRAMembersInTheConnection(s)?": "No",
+    "PlanType": ["1", "6", "7"]
+  }
+}
