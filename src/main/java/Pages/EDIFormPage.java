@@ -24,7 +24,7 @@ public class EDIFormPage {
     }
 
     //LOCATORS
-    // Partner Contact Information Section Locators
+    // Partner Contact Information Section Locators.
     By contactName = By.xpath("//input[@id='partnerContactName']");
     By contactPhone = By.xpath("//input[@id='partnerContactPhone']");
     By contactEmail = By.xpath("//input[@id='partnerContactEmail']");
