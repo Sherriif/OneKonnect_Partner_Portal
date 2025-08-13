@@ -25,7 +25,7 @@ public class LoginPage {
     By loginButton = By.xpath("//input[@value='Log In']");
 
     //METHODS
-    //Check visibility of login page by locate "Log In" Text
+    //Check visibility of login page by locate "Log In" Text.
     public String loginPageVisibility(){
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(loginText));
         return element.getText();
