@@ -3,7 +3,7 @@ import org.json.simple.JSONObject;
 import utils.DataReader;
 
 public class EDIFormDataProvider {
-    public static JSONObject[] getEDIFormData() throws Exception {
+    public static JSONObject[] getEDIFormData() throws Exception{
         JSONObject json = DataReader.getEDIFormData("jsonfiles/ediFormData.json");
 
         JSONObject partnerContact = (JSONObject) json.get("PartnerContactInformation");
