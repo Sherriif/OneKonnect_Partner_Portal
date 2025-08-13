@@ -59,7 +59,7 @@ public class OneKonnectEndToEndTest extends Setup {
 
         // 8- Verify that the order is created and displayed successfully
         try{
-            Assert.assertEquals(ordersPage.verifyVisibilityOfCreatedOrder(), "Sherif");
+            Assert.assertEquals(ordersPage.verifyVisibilityOfCreatedOrder(), "Sheriif");
             test.log(Status.PASS,"Order Created and Displayed Successfully");
         }catch (AssertionError e){
             test.log(Status.FAIL,e.getCause() + e.getMessage());
