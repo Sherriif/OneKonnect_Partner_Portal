@@ -18,7 +18,7 @@ public class OrdersPage {
     }
 
     //LOCATORS
-    // get customer name locator to verify that the created order is displayed successfully
+    // get customer name locator to verify that the created order is displayed successfully.
     By checkCustomerName = By.cssSelector("tbody tr:nth-child(1) td:nth-child(1) a:nth-child(1)");
 
     public String verifyVisibilityOfCreatedOrder(){
