@@ -38,7 +38,7 @@ public class DashboardPage {
     public void clickAddButton(){
         driver.findElement(addButton).click();
     }
-        // Click on EDI after clicking add
+        // Click on EDI after clicking add.
     public EDIFormPage clickOnEDI(){
         driver.findElement(EDIButton).click();
         return new EDIFormPage(driver);
