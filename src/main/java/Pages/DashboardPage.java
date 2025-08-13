@@ -34,7 +34,7 @@ public class DashboardPage {
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(outboundButton));
         return element.isDisplayed();
     }
-        // Click add button at the top right
+        // Click add button at the top right.
     public void clickAddButton(){
         driver.findElement(addButton).click();
     }
