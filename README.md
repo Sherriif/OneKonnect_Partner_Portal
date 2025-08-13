@@ -15,7 +15,7 @@ It includes:
 ## 🧰 Tech Stack
 
 - **Language**: Java 23  
-- **Automation**: Selenium WebDriver  
+- **Test Automation Framework**: Selenium WebDriver  
 - **Test Framework**: TestNG
 - **Reporting**: ExtentReports (HTML format)
 - **Test Data**: JSON-simple (for reading test data)
