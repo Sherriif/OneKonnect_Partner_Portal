@@ -7,6 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -86,14 +87,18 @@ public class EDIFormPage {
         driver.findElement(customerContactEmail).sendKeys((String) data.get("CustomerContactEmail"));
         driver.findElement(streetAddress).sendKeys((String) data.get("StreetAddress"));
         driver.findElement(customerCity).sendKeys((String) data.get("City"));
-        driver.findElement(customerState).sendKeys((String) data.get("State"));
+        //driver.findElement(customerState).sendKeys((String) data.get("State")); Sendkeys work also but less reliable from select
+        Select stateDropdown = new Select(driver.findElement(customerState));
+        stateDropdown.selectByVisibleText((String) data.get("State"));
         driver.findElement(zipCode).sendKeys((String) data.get("ZipCode"));
     }
 
     public void fillNewCompany(JSONObject data) {
         driver.findElement(companyName).sendKeys((String) data.get("CompanyName"));
         driver.findElement(companyCity).sendKeys((String) data.get("CompanyCity"));
-        driver.findElement(companyState).sendKeys((String) data.get("CompanyState"));
+        //driver.findElement(companyState).sendKeys((String) data.get("CompanyState"));  Sendkeys work also but less reliable from select
+        Select stateDropdown = new Select(driver.findElement(companyState));
+        stateDropdown.selectByVisibleText((String) data.get("CompanyState"));
         driver.findElement(federalTaxID).sendKeys((String) data.get("FederalTaxID"));
         driver.findElement(companyAddress).sendKeys((String) data.get("CompanyAddress"));
     }
