@@ -62,7 +62,7 @@ project-root/
 git clone https://github.com/Sherriif/OneKonnect_Partner_Portal.git
 ```
 2- Open the Project in IntelliJ IDEA
-- Go to File → Open and select the OneKonnect folder.
+- Go to File → Open and select the OneKonnectTask folder.
 - Ensure Maven is enabled so dependencies download automatically.
 
 3- Run the Test from IntelliJ
