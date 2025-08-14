@@ -15,10 +15,10 @@ It includes:
 ## 🧰 Tech Stack
 
 - **Language**: Java 23  
-- **Automation**: Selenium WebDriver  
+- **Test Automation Framework**: Selenium WebDriver  
 - **Test Framework**: TestNG
 - **Reporting**: ExtentReports (HTML format)
-- Test Data: JSON-simple (for reading test data)
+- **Test Data**: JSON-simple (for reading test data)
 - **Build Tool**: Maven  
   
 ---
@@ -59,11 +59,10 @@ project-root/
 ## 🏃 How to Run the Test
 1- Clone the Repository
 ```bash
-git clone https://github.com/your-username/OneKonnect.git
-cd OneKonnect
+git clone https://github.com/Sherriif/OneKonnect_Partner_Portal.git
 ```
 2- Open the Project in IntelliJ IDEA
-- Go to File → Open and select the OneKonnect folder.
+- Go to File → Open and select the OneKonnectTask folder.
 - Ensure Maven is enabled so dependencies download automatically.
 
 3- Run the Test from IntelliJ
